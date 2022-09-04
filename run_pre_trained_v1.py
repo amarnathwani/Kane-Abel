@@ -2,6 +2,7 @@
 # Written by Matthew Yee-King
 # MIT license 
 # https://mit-license.org/
+# Modified by Amar Nathwani
 
 import sys
 import os
@@ -13,9 +14,6 @@ from tensorflow.keras import layers
 import datetime
 import random
 import time 
-
-# env_name = "gym_gs:BreakwallNoFrameskip-v1" 
-# model_file = "./pre-trained/mac_hard_breakwall/gym_gs:BreakwallNoFrameskip-v1_20211018-114642_5424"
 
 env_name = "SpaceInvadersNoFrameskip-v4"
 model_file = "openaigym/pre-trained/aero_atari_spaceinvaders/SpaceInvadersNoFrameskip-v4_20220627-112743_13"
